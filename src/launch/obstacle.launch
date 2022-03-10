@@ -1,0 +1,10 @@
+
+<launch>
+  
+    <include file="$(find assignment3_turtlebot3)/src/launch/turtlebot3_wall_world.launch"/>
+
+      
+    <node name="obs" pkg="assignment3_turtlebot3" type="obs.py" /> 
+
+
+</launch>
